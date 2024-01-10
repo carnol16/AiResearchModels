@@ -5,6 +5,6 @@ $('#chooseFile').bind('change', function () {
   }
   else {
     $(".file-upload").addClass('active');
-    $("#noFile").text(filename.replace("Cock", "")); 
+
   }
 });
