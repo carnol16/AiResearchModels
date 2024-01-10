@@ -4,7 +4,7 @@ $('#chooseFile').bind('change', function () {
     $(".file-upload").removeClass('active');
   }
   else {
-    $(".file-upload").addClass('active');
-
-  }
+    //$(".file-upload").addClass('active');
+    $("#noFile").text(filename.replace(filename, ""));
+  } 
 });
